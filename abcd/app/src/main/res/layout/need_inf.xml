@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blood6">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Full Name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/need_name" />
+
+    <com.example.charul.webservicedemo.CustomAutoCompleteTextView
+        android:id="@+id/atv_places"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/str_atv_places" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:id="@+id/location"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
